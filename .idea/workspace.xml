@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="790c4c30-a1a0-4f78-a24f-8c9df5f2113d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iris.data.learning.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris.data.test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleOfUse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iris.dataNoLabels.test.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm_kNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm_kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmKNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iris.data.test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/iris.data.test.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,12 +26,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="2663" />
+          <entry key="dummy" value="2" />
+          <entry key="py" value="3142" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="2663" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="3142" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -38,18 +51,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Algorithm_kNN.py">
+        <entry file="file://$PROJECT_DIR$/AlgorithmKNN.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="251">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
-                <marker date="1540042622100" expanded="true" signature="59:64" ph="..." />
-                <marker date="1540042622100" expanded="true" signature="1115:1123" ph="..." />
-                <marker date="1540042622100" expanded="true" signature="1117:1118" ph="..." />
-                <marker date="1540042622100" expanded="true" signature="1259:1264" ph="..." />
-                <marker date="1540042622100" expanded="true" signature="1306:1312" ph="..." />
+                <marker date="1540048858520" expanded="true" signature="59:64" ph="..." />
+                <marker date="1540048858520" expanded="true" signature="1171:1172" ph="..." />
+                <marker date="1540048858520" expanded="true" signature="1171:1177" ph="..." />
+                <marker date="1540048858520" expanded="true" signature="1313:1317" ph="..." />
+                <marker date="1540048858520" expanded="true" signature="1353:1597" ph="..." />
+                <marker date="1540048858520" expanded="true" signature="1591:1597" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exampleOfUse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -70,6 +93,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Algorithm_kNN.py" />
+        <option value="$PROJECT_DIR$/exampleOfUse.py" />
+        <option value="$PROJECT_DIR$/AlgorithmKNN.py" />
       </list>
     </option>
   </component>
@@ -78,7 +103,9 @@
     <option name="width" value="683" />
     <option name="height" value="738" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -113,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.exampleOfUse">
     <configuration name="Algorithm_kNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kNN_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,7 +153,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm_kNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AlgorithmKNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -135,8 +162,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="exampleOfUse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kNN_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/exampleOfUse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Algorithm_kNN" />
+      <item itemvalue="Python.exampleOfUse" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exampleOfUse" />
         <item itemvalue="Python.Algorithm_kNN" />
       </list>
     </recent_temporary>
@@ -156,6 +209,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24050634" />
@@ -180,17 +234,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Algorithm_kNN.py">
+    <entry file="file://$PROJECT_DIR$/exampleOfUse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AlgorithmKNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
-            <marker date="1540042622100" expanded="true" signature="59:64" ph="..." />
-            <marker date="1540042622100" expanded="true" signature="1115:1123" ph="..." />
-            <marker date="1540042622100" expanded="true" signature="1117:1118" ph="..." />
-            <marker date="1540042622100" expanded="true" signature="1259:1264" ph="..." />
-            <marker date="1540042622100" expanded="true" signature="1306:1312" ph="..." />
+            <marker date="1540048858520" expanded="true" signature="59:64" ph="..." />
+            <marker date="1540048858520" expanded="true" signature="1171:1172" ph="..." />
+            <marker date="1540048858520" expanded="true" signature="1171:1177" ph="..." />
+            <marker date="1540048858520" expanded="true" signature="1313:1317" ph="..." />
+            <marker date="1540048858520" expanded="true" signature="1353:1597" ph="..." />
+            <marker date="1540048858520" expanded="true" signature="1591:1597" ph="..." />
           </folding>
         </state>
       </provider>

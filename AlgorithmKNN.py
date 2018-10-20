@@ -8,49 +8,64 @@ class kNN:
         self.learningSet = learningSet
 
     def predict(self, inputArray):
+        answerArray = []
 
         for i in inputArray:
-
             distansAndSpeciesArray = []
+
             for j in self.learningSet:
                 distansAndSpeciesArray.append([ kNN.calcEuclideanDistans(i[:4], j[:4]), j[4]])
                 distansAndSpeciesArray.sort()
 
             speciesArray = []
+
             for k in range(self.k):
                 speciesArray.append(distansAndSpeciesArray[k][1])
 
-            answerForExample = kNN.mostFrequentSpecies(speciesArray)
-            print("%s = %s" % (speciesArray, answerForExample))
+            answerForInstance = kNN.mostFrequentSpecies(speciesArray)
+            answerArray.append(answerForInstance)
+
+        return numpy.array(answerArray)
 
     def mostFrequentSpecies(speciesArray):
         species = ""
         willChangeSpecies = 0
+
         for i in speciesArray:
 
             if(species == "" or willChangeSpecies == 0):
                 species = i
                 willChangeSpecies += 1
+
             elif(species == i):
                 willChangeSpecies += 1
+
             else:
                 willChangeSpecies -= 1
 
         return species
 
-
-
-
     def calcEuclideanDistans(vectorX, vectorY):
         return scipy.spatial.distance.euclidean(numpy.array(vectorX), numpy.array(vectorY))
 
-    #todo: def score(self, inputArray, label):
+    def score(self, inputArray, label):
+        goodAnswers = 0
+        answerArray = kNN.predict(self, inputArray)
+
+        for i in range(len(label)):
+            if (answerArray[i] == label[i]):
+                goodAnswers += 1
+
+        return goodAnswers/len(label)
+
 
     def loadDataFromCSVfile(pathFileName):
+
         with open(pathFileName, 'r') as csvfile:
             data = pandas.read_csv(csvfile)
             numpyData = numpy.array(data)
-        return  numpyData
+
+        return numpyData
 
     def getLearningSet(self):
         return self.learningSet
@@ -61,10 +76,6 @@ class kNN:
     def setK(self, newK):
         self.k = newK
 
-K = 3
 
-learningData = kNN.loadDataFromCSVfile("iris.data.learning.csv")
-testData = kNN.loadDataFromCSVfile("iris.data.test.csv")
-testAlgorithClass = kNN(K, learningData)
-kNN.predict(testAlgorithClass, testData)
+
 
