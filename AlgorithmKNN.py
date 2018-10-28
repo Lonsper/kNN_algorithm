@@ -1,31 +1,38 @@
+from unittest.mock import _patch
+
 import numpy
 import scipy.spatial
 import pandas
 
 class kNN:
+
+
     def __init__(self, k, learningSet):
         self.k = k
         self.learningSet = learningSet
 
     def predict(self, inputArray):
-        answerArray = []
+        answersArray = []
+        widthOfTable = numpy.size(self.learningSet, 1) - 1
 
-        for i in inputArray:
-            distansAndSpeciesArray = []
+        for unknowSpecies in inputArray:
 
-            for j in self.learningSet:
-                distansAndSpeciesArray.append([ kNN.calcEuclideanDistans(i[:4], j[:4]), j[4]])
-                distansAndSpeciesArray.sort()
+            fullList = []
+            for singleExample in self.learningSet:
+                distance = kNN.calcEuclideanDistance(unknowSpecies[:widthOfTable], singleExample[:widthOfTable])
+                speciesForDistance = singleExample[4]
+
+                fullList.append([distance, speciesForDistance])
+                fullList.sort()
 
             speciesArray = []
-
             for k in range(self.k):
-                speciesArray.append(distansAndSpeciesArray[k][1])
+                speciesArray.append(fullList[k][1])
 
             answerForInstance = kNN.mostFrequentSpecies(speciesArray)
-            answerArray.append(answerForInstance)
+            answersArray.append([answerForInstance])
 
-        return numpy.array(answerArray)
+        return numpy.array(answersArray)
 
     def mostFrequentSpecies(speciesArray):
         species = ""
@@ -45,7 +52,7 @@ class kNN:
 
         return species
 
-    def calcEuclideanDistans(vectorX, vectorY):
+    def calcEuclideanDistance(vectorX, vectorY):
         return scipy.spatial.distance.euclidean(numpy.array(vectorX), numpy.array(vectorY))
 
     def score(self, inputArray, label):
@@ -64,8 +71,7 @@ class kNN:
         with open(pathFileName, 'r') as csvfile:
             data = pandas.read_csv(csvfile)
             numpyData = numpy.array(data)
-
-        return numpyData
+            return numpyData
 
     def getLearningSet(self):
         return self.learningSet
