@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="790c4c30-a1a0-4f78-a24f-8c9df5f2113d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/exampleOfUse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iris.dataNoLabels.test.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_kNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/AlgorithmKNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iris.data.test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/iris.data.test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,51 +15,71 @@
     <session id="1773808688">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.31" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="2" />
-          <entry key="py" value="3142" />
+          <entry key="dummy" value="6" />
+          <entry key="py" value="6841" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3142" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="6841" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="METADATA" value="1" />
+          <entry key="WHEEL" value="1" />
+          <entry key="py" value="20" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AlgorithmKNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+            <state relative-caret-position="-45">
+              <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
-                <marker date="1540048858520" expanded="true" signature="59:64" ph="..." />
-                <marker date="1540048858520" expanded="true" signature="1171:1172" ph="..." />
-                <marker date="1540048858520" expanded="true" signature="1171:1177" ph="..." />
-                <marker date="1540048858520" expanded="true" signature="1313:1317" ph="..." />
-                <marker date="1540048858520" expanded="true" signature="1353:1597" ph="..." />
-                <marker date="1540048858520" expanded="true" signature="1591:1597" ph="..." />
+                <element signature="e#0#32#0" expanded="true" />
+                <marker date="1540842500039" expanded="true" signature="95:100" ph="..." />
+                <marker date="1540842500039" expanded="true" signature="1712:2206" ph="..." />
+                <marker date="1540842500039" expanded="true" signature="1946:1952" ph="..." />
+                <marker date="1540842500039" expanded="true" signature="2013:2206" ph="..." />
+                <marker date="1540842500039" expanded="true" signature="2343:2347" ph="..." />
+                <marker date="1540842500039" expanded="true" signature="2383:2576" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1540833310193" expanded="true" signature="605:610" ph="..." />
               </folding>
             </state>
           </provider>
@@ -71,8 +88,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/exampleOfUse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,8 +113,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Algorithm_kNN.py" />
-        <option value="$PROJECT_DIR$/exampleOfUse.py" />
+        <option value="$PROJECT_DIR$/test/testKNN.py" />
+        <option value="$PROJECT_DIR$/testKNN.py" />
+        <option value="$PROJECT_DIR$/tests/testKNN.py" />
+        <option value="$PROJECT_DIR$/venv/test.py" />
+        <option value="$PROJECT_DIR$/tests.py" />
+        <option value="$PROJECT_DIR$/venv/tests.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/AlgorithmKNN.py" />
+        <option value="$PROJECT_DIR$/exampleOfUse.py" />
       </list>
     </option>
   </component>
@@ -111,6 +138,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,15 +146,29 @@
               <item name="kNN_algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="kNN_algorithm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="kNN_algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kNN_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kNN_algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kNN_algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,8 +182,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.exampleOfUse">
-    <configuration name="Algorithm_kNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="AlgorithmKNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="kNN_algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,14 +225,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="kNN_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for tests.test.TestAlgorithmKNN.test_predict" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kNN_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test.TestAlgorithmKNN.test_predict&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="kNN_algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Algorithm_kNN" />
+      <item itemvalue="Python tests.Unittests for tests.test.TestAlgorithmKNN.test_predict" />
+      <item itemvalue="Python tests.Unittests in test.py" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.AlgorithmKNN" />
       <item itemvalue="Python.exampleOfUse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.exampleOfUse" />
-        <item itemvalue="Python.Algorithm_kNN" />
+        <item itemvalue="Python.AlgorithmKNN" />
+        <item itemvalue="Python tests.Unittests for tests.test.TestAlgorithmKNN.test_predict" />
+        <item itemvalue="Python tests.Unittests in test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -207,9 +304,40 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_test_TestAlgorithmKNN_test_mostFrequentSpecies - 2018.10.29 at 00h 19m 53s.xml">
+      <configuration name="Unittests for test.TestAlgorithmKNN.test_mostFrequentSpecies" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestAlgorithmKNN_test_mostFrequentSpecies - 2018.10.29 at 00h 20m 16s.xml">
+      <configuration name="Unittests for test.TestAlgorithmKNN.test_mostFrequentSpecies" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2018.10.29 at 00h 20m 28s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestAlgorithmKNN_test_mostFrequentSpecies - 2018.10.29 at 00h 20m 41s.xml">
+      <configuration name="Unittests for test.TestAlgorithmKNN.test_mostFrequentSpecies" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2018.10.29 at 00h 26m 20s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestAlgorithmKNN_test_predict - 2018.10.29 at 00h 27m 09s.xml">
+      <configuration name="Unittests for test.TestAlgorithmKNN.test_predict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestAlgorithmKNN_test_predict - 2018.10.29 at 00h 27m 34s.xml">
+      <configuration name="Unittests for test.TestAlgorithmKNN.test_predict" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2018.10.29 at 00h 33m 34s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_py - 2018.10.29 at 00h 33m 45s.xml">
+      <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_TestAlgorithmKNN_test_predict - 2018.10.29 at 00h 36m 31s.xml">
+      <configuration name="Unittests for test.TestAlgorithmKNN.test_predict" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="738" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.24050634" />
@@ -217,10 +345,10 @@
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32894737" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32894737" />
       <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.30756578" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3569079" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39967105" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -234,25 +362,68 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/exampleOfUse.py">
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/numpy-1.15.2.dist-info/top_level.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/numpy-1.15.2.dist-info/WHEEL">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/numpy-1.15.2.dist-info/METADATA">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="-55" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.5/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testKNN.py" />
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/tests/testKNN.py" />
+    <entry file="file://$PROJECT_DIR$/venv/test.py" />
+    <entry file="file:///usr/lib/python3.5/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py" />
+    <entry file="file://$PROJECT_DIR$/venv/tests.py" />
     <entry file="file://$PROJECT_DIR$/AlgorithmKNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
+        <state relative-caret-position="-45">
+          <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
           <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1540048858520" expanded="true" signature="59:64" ph="..." />
-            <marker date="1540048858520" expanded="true" signature="1171:1172" ph="..." />
-            <marker date="1540048858520" expanded="true" signature="1171:1177" ph="..." />
-            <marker date="1540048858520" expanded="true" signature="1313:1317" ph="..." />
-            <marker date="1540048858520" expanded="true" signature="1353:1597" ph="..." />
-            <marker date="1540048858520" expanded="true" signature="1591:1597" ph="..." />
+            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1540842500039" expanded="true" signature="95:100" ph="..." />
+            <marker date="1540842500039" expanded="true" signature="1712:2206" ph="..." />
+            <marker date="1540842500039" expanded="true" signature="1946:1952" ph="..." />
+            <marker date="1540842500039" expanded="true" signature="2013:2206" ph="..." />
+            <marker date="1540842500039" expanded="true" signature="2343:2347" ph="..." />
+            <marker date="1540842500039" expanded="true" signature="2383:2576" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exampleOfUse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1540833310193" expanded="true" signature="605:610" ph="..." />
           </folding>
         </state>
       </provider>
