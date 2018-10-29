@@ -19,7 +19,7 @@ class TestAlgorithmKNN(unittest.TestCase):
     def test_mostFrequentSpecies(self):
         test_data_array = ['setosa', 'setosa', 'setosa', 'versicolor', 'versicolor', 'virginica', 'virginica', 'setosa', 'setosa']
         answer = kNN.mostFrequentSpecies(test_data_array)
-        self.assertEqual('setosa', answer, 'ups')
+        self.assertEqual('setosa', answer)
 
 
     def test_calcEuclideanDistance(self):
@@ -35,14 +35,16 @@ class TestAlgorithmKNN(unittest.TestCase):
         testAlgorith.setK(2)
         self.assertEqual(testAlgorith.getK(), 2)
 
- #   def test_score(self):
+    def test_score(self):
+        K = 2
+        testDataNoLabels = kNN.loadDataFromCSVfile("tests/test1_data_iris.csv")
+        testAnswerLabels = kNN.loadDataFromCSVfile("tests/test1_answer_iris.csv")
+        learningData = kNN.loadDataFromCSVfile("tests/test1_learning_iris.csv")
 
+        testAlgorith = kNN(K, learningData)
 
-  #  def test_getLearningSet(self):
-
-
-   # def test_getK(self):
-
+        x = testAlgorith.score(testDataNoLabels, testAnswerLabels)
+        self.assertEqual(x, 100)
 
 if __name__ == '__main__':
     unittest.main()

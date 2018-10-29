@@ -38,19 +38,40 @@ class kNN:
         species = ""
         willChangeSpecies = 0
 
+        maxValue = 0
+        index = 0
+        uniqueSpeciesArray = []
         for i in speciesArray:
-
-            if(species == "" or willChangeSpecies == 0):
-                species = i
-                willChangeSpecies += 1
-
-            elif(species == i):
-                willChangeSpecies += 1
-
+            if(kNN.isUniqueInArray(uniqueSpeciesArray, i)):
+                uniqueSpeciesArray.append(i)
+                uniqueSpeciesArray.append(1)
             else:
-                willChangeSpecies -= 1
+                kNN.addOnePointToSpecies(uniqueSpeciesArray, i)
 
-        return species
+        for iteration in range(len(uniqueSpeciesArray)):
+            if (iteration % 2):
+                if (maxValue < uniqueSpeciesArray[iteration]):
+                    maxValue = uniqueSpeciesArray[iteration]
+                    index = iteration - 1
+
+        return uniqueSpeciesArray[index]
+
+    def addOnePointToSpecies(uniqueSpeciesArray, i):
+        for iteration in range(len(uniqueSpeciesArray)):
+            if(uniqueSpeciesArray[iteration] == i):
+                uniqueSpeciesArray[iteration+1]+=1
+
+        return None
+
+    def isUniqueInArray(counterUniqueSpeciesArray, checkSpecies):
+        isUnique = True
+        for singleSpecies in counterUniqueSpeciesArray:
+            if(checkSpecies == singleSpecies):
+                isUnique = False
+
+        return isUnique
+
+
 
     def calcEuclideanDistance(vectorX, vectorY):
         return scipy.spatial.distance.euclidean(numpy.array(vectorX), numpy.array(vectorY))
@@ -63,7 +84,7 @@ class kNN:
             if (answerArray[i] == label[i]):
                 goodAnswers += 1
 
-        return goodAnswers/len(label)
+        return goodAnswers/len(label)*100
 
 
     def loadDataFromCSVfile(pathFileName):

@@ -12,5 +12,4 @@ print(answerArray)
 testLabels = kNN.loadDataFromCSVfile("iris.correctLabels.test.csv")
 correctnessFactor = testAlgorith.score(testDataNoLabels, testLabels)
 print(correctnessFactor)
-print(testAlgorith.getLearningSet())
 
